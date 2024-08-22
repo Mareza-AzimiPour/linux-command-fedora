@@ -1,0 +1,43 @@
+step 1 install Orchis-theme-->GTK:
+
+sudo dnf install -y git sassc libglib2.0-dev glib2-devel
+git clone https://github.com/vinceliuice/Orchis-theme.git
+cd Orchis-theme
+./install.sh
+./install.sh -l
+
+Step 2
+git clone https://github.com/TaylanTatli/Sevi.git
+cd Sevi/
+./install.sh
+./install.sh -a
+
+step 3 install needd [extention]-->go to web site gnome extentions adn the name extentions blow and install by browser with access  and then install and go to  fedora shop install extention
+
+AppIndicator and KStatusNotifierItem Support 
+Aylur's Widgets
+Blur my Shell
+Coverflow Alt-Tab 
+Dash to Dock 
+GSConnect
+Just Perfection
+Rounded Window Corners Reborn
+Rounded Corners 
+User Themes
+
+step 4->now config the theme with file and move the right directory [you have your file such as font that must be before downloded]
+
+1-move Orchis-Shell-MOD to place /home/mreza/.themes
+2-move background to /home/mreza/.local/share
+3-move font to /home/mreza/.local/share
+
+step5->you have fule gnome-extensions-settings in there gnome-extensions-settings.conf the config[you before downloaded] cause your all extention in ther file and icon and color effected
+
+dconf load /org/gnome/shell/extensions/ < gnome-extensions-settings.conf
+
+step 6--> go to tweaks and config theme before log out after go to tweaks once more log out 
+
+step 7(optional)
+git clone https://github.com/vinceliuice/WhiteSur-firefox-theme.git
+cd WhiteSur-firefox-theme    
+./install.sh -m
